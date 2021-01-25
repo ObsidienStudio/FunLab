@@ -3,113 +3,106 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>/agenda/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/acceuil/</loc>
+    <loc>/articles/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/agenda/</loc>
+    <loc>/articles/lautre-brique/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/articles/</loc>
+    <loc>/carte/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/articles/funlab/</loc>
+    <loc>/communaute/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/articles/lautre-brique/</loc>
+    <loc>/presentations/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/carte/</loc>
+    <loc>/ressources/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/communaute/</loc>
-    <priority>0</priority>
+    <loc>/agenda/article1/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/presentations/</loc>
-    <priority>0</priority>
+    <loc>/agenda/article2/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/ressources/</loc>
-    <priority>0</priority>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/actualites/</loc>
+    <loc>/articles/funlab/actualite3/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/agenda/article1/</loc>
+    <loc>/articles/funlab/actualite1/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/agenda/article2/</loc>
+    <loc>/tags/f.u.n/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>/tags/lautre-brique/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/articles/funlab/actualite3/</loc>
+    <loc>/articles/funlab/actualite4/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/articles/funlab/actualite1/</loc>
+    <loc>/presentations/lafun/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/f.u.n/</loc>
+    <loc>/tags/la-f.u.n/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/lautre-brique/</loc>
+    <loc>/articles/funlab/actualite2/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/articles/funlab/actualite4/</loc>
+    <loc>/presentations/presentation2/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/la-f.u.n/</loc>
+    <loc>/presentations/presentation1/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/presentations/presentation3/</loc>
+    <loc>/articles/funlab/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/articles/funlab/actualite2/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/presentations/presentation2/</loc>
+    <loc>/structures/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/presentations/presentation1/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

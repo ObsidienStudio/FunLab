@@ -2,12 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="/xml/base.min.xml" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Site de la Fun</title>
-    <link>/agenda/</link>
-    <description>Recent content on Site de la Fun</description>
+    <title>Structures on Site de la Fun</title>
+    <link>/structures/</link>
+    <description>Recent content in Structures on Site de la Fun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <atom:link href="/agenda/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/structures/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Des pains pour les princes</title>
       <link>/articles/funlab/actualite3/</link>
