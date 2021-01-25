@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="http://example.org/xml/base.min.xml" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site de la Fun</title>
+    <link>http://example.org/articles/</link>
+    <description>Recent content on Site de la Fun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <atom:link href="http://example.org/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Des pains pour les princes</title>
+      <link>http://example.org/articles/funlab/actualite3/</link>
+      <guid>http://example.org/articles/funlab/actualite3/</guid>
+      <description>&lt;p&gt;Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Départs a l&#39;arrivée</title>
+      <link>http://example.org/articles/funlab/actualite1/</link>
+      <guid>http://example.org/articles/funlab/actualite1/</guid>
+      <description>&lt;p&gt;Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>La Diamond-Moula</title>
+      <link>http://example.org/articles/funlab/actualite4/</link>
+      <guid>http://example.org/articles/funlab/actualite4/</guid>
+      <description>&lt;p&gt;Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>La lune d&#39;or</title>
+      <link>http://example.org/articles/funlab/actualite2/</link>
+      <guid>http://example.org/articles/funlab/actualite2/</guid>
+      <description>&lt;p&gt;Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
