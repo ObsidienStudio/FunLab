@@ -6,39 +6,45 @@ theme = "hugo-flex"
 
 [menu]
   [[menu.main]]
-    identifier = "acceuil"
-    name = "Acceuil"
-    url = "/"
+    identifier = "Association"
+    name = "Association"
+    url = "/Association/lafun"
     weight = 1
   [[menu.main]]
-    identifier = "presentations"
-    name = "Presentations"
-    url = "/presentations"
-    weight = 2
-  [[menu.main]]
-    identifier = "presentation-lafun"
+    identifier = "association-lafun"
     name = "La F.U.N"
-    url = "/presentations/laFun"
-    parent = "presentations"
+    url = "/Association/LaFun"
+    parent = "Association"
     weight = 1
   [[menu.main]]
-    identifier = "presentation-autrebrique"
+    identifier = "association-autrebrique"
     name = "L'Autre Brique"
-    url = "/presentations/autreBrique"
-    parent = "presentations"
+    url = "/Association/autreBrique"
+    parent = "Association"
     weight = 2
   [[menu.main]]
-    identifier = "presentation-funlab"
+    identifier = "association-funlab"
     name = "Le Fun Lab"
-    url = "/presentations/funLab"
-    parent = "presentations"
+    url = "/Association/funLab"
+    parent = "Association"
     weight = 3
   [[menu.main]]
-    identifier = "presentation-preciouskitchen"
-    name = "Precious Kitchen"
-    url = "/presentations/preciousKitchen"
-    parent = "presentations"
+    identifier = "association-ateliersLaboratoires"
+    name = "Les Ateliers Laboratoires"
+    url = "/Association/ateliersLaboratoires"
+    parent = "Association"
     weight = 4
+  [[menu.main]]
+    identifier = "association-interZone"
+    name = "InterZone"
+    url = "/Association/interZone"
+    parent = "Association"
+    weight = 5
+  [[menu.main]]
+    identifier = "Projets"
+    name = "Projets"
+    url = "/projets"
+    weight = 2
   [[menu.main]]
     identifier = "actualites"
     name = "Actualités"
@@ -47,47 +53,55 @@ theme = "hugo-flex"
   [[menu.main]]
     identifier = "agenda"
     name = "Agenda"
-    url = "/agenda"
+    url = "/Agenda"
     weight = 4
-  [[menu.main]]
-    identifier = "communaute"
-    name = "Communauté"
-    url = "/communaute"
-    weight = 5
   [[menu.main]]
     identifier = "ressources"
     name = "Ressources"
-    url = "/ressources"
-    weight = 6
+    url = "/Ressources"
+    weight = 5
   [[menu.main]]
-    identifier = "wiki"
-    name = "Wiki de la F.U.N"
-    url = "/wiki"
+    identifier = "ressources-communaute"
+    name = "Communaute"
+    url = "/Ressources/communaute"
     parent = "ressources"
     weight = 1
   [[menu.main]]
-    identifier = "documentations"
-    name = "Documentations"
-    url = "/documentations"
+    identifier = "wiki"
+    name = "Wiki de la F.U.N"
+    url = "/Ressources/wiki"
     parent = "ressources"
     weight = 2
   [[menu.main]]
-    identifier = "infos"
-    name = "Infos"
-    url = "/infos"
+    identifier = "documentations"
+    name = "Documentations"
+    url = "/Ressources/doc"
     parent = "ressources"
     weight = 3
   [[menu.main]]
-    identifier = "contacts"
-    name = "Contacts"
-    url = "/contacts"
+    identifier = "infos"
+    name = "Infos"
+    url = "/Ressources/infos"
     parent = "ressources"
     weight = 4
   [[menu.main]]
+    identifier = "contacts"
+    name = "Contacts"
+    url = "/Ressources/contacts"
+    parent = "ressources"
+    weight = 5
+  [[menu.main]]
     identifier = "carte"
     name = "Carte"
-    url = "/carte"
-    weight = 7
+    url = "/Ressources/carte"
+    parent = "ressources"
+    weight = 6
+  [[menu.main]]
+    identifier = "NousRejoindre"
+    name = "Nous Rejoindre"
+    url = "/NousRejoindre"
+    weight = 6
+
 
 
 [taxonomies]
