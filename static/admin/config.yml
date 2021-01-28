@@ -10,7 +10,7 @@ collections:
     label: "Actualites" # Used in the UI
     slug: "{{day}}-{{month}}-{{year}}_{{slug}}"    
     folder: "/content/Actualites" # The path to the folder where the documents are stored
-    path: '{{slug}}/index.md'
+    path: '{{slug}}/index'
     create: true # Allow users to create new documents in this collection
     media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
