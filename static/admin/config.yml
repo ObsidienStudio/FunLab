@@ -13,12 +13,14 @@ collections:
     slug: "{{slug}}"    
     folder: "/content/Actualites" # The path to the folder where the documents are stored
     path: '{{slug}}/index'
+    filter: {field: "visible", value: true}
     create: true # Allow users to create new documents in this collection
     media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "relation", collection: "Tags", search_fields: ["title"], value_field: "title", multiple: true, options_length: 5}
       - {label: "Auteur", name: "author", widget: "select", options: ["Cat", "Fab'Manager", "Julie"]}
       - {label: "Date", name: "date", widget: "datetime", format: "DD/MM/YYYY"}
       - {label: "Date de publication", name: "publishDate", widget: "datetime", format: "DD/MM/YYYY"}
@@ -28,34 +30,47 @@ collections:
       - {label: "Present dans l'agenda", name: "presenceAgenda", widget: "boolean", default: false}
       - {label: "Vignette", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
   - name : "Presentations"
     label: "Presentations"
     slug: "{{slug}}"
     folder: "/content/LaFun"
     path: '{{dir}}/texts/{{slug}}'
+    filter: {field: "visible", value: true}
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
     summary: "Presentation '{{dir}}' - {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Dossier", name: "dir", widget: "select", options: ["LaFun","FunLab", "AutreBrique"], required: true}
+      - {label: "Logo", name: "logo", widget: "image"}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
   - name : "Projets"
     label: "Projets"
     slug: "{{slug}}"
     folder: "/content/Projets"
     path: '{{dir}}/texts/{{slug}}'
+    filter: {field: "visible", value: true}
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
     summary: "Projet '{{dir}}' - {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Dossier", name: "dir", widget: "select", options: ["LaFun","FunLab", "AutreBrique"], required: true}
+      - {label: "Dossier", name: "dir", widget: "select", options: ["Projet1","Projet2", "Projet3"], required: true}
+      - {label: "Vignette", name: "thumbnail", widget: "image"}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
   - name : "Tags"
     label: "Liste des tags"
+    filter: {field: "visible", value: true}
     folder: "/content/tags"
     path: '{{title}}/index'
     create: true
     summary: "Projet '{{title | upper}}' - {{slug}}"
     fields:
-      - {label: "Titre", name: "title", widget: "string", required: true, pattern: ["a-z", "Le titre ne doit pas comporter autre chose que des minuscules"]}
+      - {label: "Titre", name: "title", widget: "string", required: true, pattern: ["[a-z0-9]", "Le titre ne doit comporter que des minuscules ou des chiffres"]}
       - {label: "Description", name: "body", widget: "markdown", required: true}
+      - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}

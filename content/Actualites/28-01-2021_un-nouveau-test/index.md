@@ -2,6 +2,7 @@
 layout: blog
 title: Un nouveau test
 author: Fab'Manager
+visible : true
 date: 20/01/2021
 publishDate: 22/01/2021
 eventDate: 03/02/2021

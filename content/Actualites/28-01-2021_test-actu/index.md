@@ -1,5 +1,6 @@
 ---
 layout: blog
+visible : true
 title: test actu
 author: Julie
 date: 2021-01-28T11:55:31.005Z
