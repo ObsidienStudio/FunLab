@@ -8,7 +8,7 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 collections:
   - name: "Actualites" # Used in routes, e.g., /admin/collections/blog
     label: "Actualites" # Used in the UI
-    slug: "{{day}}-{{month}}-{{year}}_{{slug}}"    
+    slug: "{{slug}}"    
     folder: "/content/Actualites" # The path to the folder where the documents are stored
     path: '{{slug}}/index'
     create: true # Allow users to create new documents in this collection
@@ -18,10 +18,21 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Auteur", name: "author", widget: "select", options: ["Cat", "Fab'Manager", "Julie"]}
-      - {label: "Date de publication", name: "date", widget: "datetime"}
-      - {label: "Date de l'évenement", name: "_date", widget: "datetime"}
+      - {label: "Date", name: "date", widget: "datetime", format: "DD/MM/YYYY"}
+      - {label: "Date de publication", name: "publishDate", widget: "datetime", format: "DD/MM/YYYY"}
+      - {label: "Date de l'évenement", name: "eventDate", widget: "datetime", format: "DD/MM/YYYY"}
       - {label: "Tarif de l'évenement", name: "_tarif", widget: "string"}
       - {label: 'Couleur', name: 'color', widget: 'color' }
-      - {label: "Present dans l'agenda", name: "_agenda", widget: "boolean", default: false}
-      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Present dans l'agenda", name: "presenceAgenda", widget: "boolean", default: false}
+      - {label: "Vignette", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Presentations"
+    label: "Presentations"
+    slug: "{{slug}}"
+    create: true
+    folder: "/content/LaFun/LaFun/texts"
+    nested:
+      depth: 10 # max depth to show in the collection tree
+      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+    fields:
       - {label: "Body", name: "body", widget: "markdown"}

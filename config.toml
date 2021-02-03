@@ -3,42 +3,41 @@ title = "Site de la Fun"
 theme = "hugo-flex"
 
 
-
 [menu]
   [[menu.main]]
-    identifier = "Association"
-    name = "Association"
-    url = "/Association/lafun"
+    identifier = "LaFun"
+    name = "LaFun"
+    url = "/LaFun/lafun"
     weight = 1
   [[menu.main]]
-    identifier = "association-lafun"
+    identifier = "LaFun-lafun"
     name = "La F.U.N"
-    url = "/Association/LaFun"
-    parent = "Association"
+    url = "/LaFun/LaFun"
+    parent = "LaFun"
     weight = 1
   [[menu.main]]
-    identifier = "association-autrebrique"
+    identifier = "LaFun-autrebrique"
     name = "L'Autre Brique"
-    url = "/Association/autreBrique"
-    parent = "Association"
+    url = "/LaFun/autreBrique"
+    parent = "LaFun"
     weight = 2
   [[menu.main]]
-    identifier = "association-funlab"
+    identifier = "LaFun-funlab"
     name = "Le Fun Lab"
-    url = "/Association/funLab"
-    parent = "Association"
+    url = "/LaFun/funLab"
+    parent = "LaFun"
     weight = 3
   [[menu.main]]
-    identifier = "association-ateliersLaboratoires"
+    identifier = "LaFun-ateliersLaboratoires"
     name = "Les Ateliers Laboratoires"
-    url = "/Association/ateliersLaboratoires"
-    parent = "Association"
+    url = "/LaFun/ateliersLaboratoires"
+    parent = "LaFun"
     weight = 4
   [[menu.main]]
-    identifier = "association-interZone"
+    identifier = "LaFun-interZone"
     name = "InterZone"
-    url = "/Association/interZone"
-    parent = "Association"
+    url = "/LaFun/interZone"
+    parent = "LaFun"
     weight = 5
   [[menu.main]]
     identifier = "Projets"
