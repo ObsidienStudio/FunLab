@@ -1,0 +1,1 @@
+Test de entlify en écrivant dans content/lafun/lafun/texts
