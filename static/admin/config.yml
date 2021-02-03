@@ -30,9 +30,10 @@ collections:
     label: "Presentations"
     slug: "{{slug}}"
     create: true
-    folder: "/content/LaFun/LaFun/texts"
+    folder: "/content/LaFun"
     nested:
       depth: 10 # max depth to show in the collection tree
       summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     fields:
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Titre", name: "title", widget: "string", required: true}
+      - {label: "Body", name: "body", widget: "markdown",  required: true}
