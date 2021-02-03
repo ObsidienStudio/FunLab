@@ -28,30 +28,34 @@ collections:
       - {label: "Present dans l'agenda", name: "presenceAgenda", widget: "boolean", default: false}
       - {label: "Vignette", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Presentation de la fun"
-    label: "Presentation de la fun"
+  - name : "Presentations"
+    label: "Presentations"
     slug: "{{slug}}"
-    path: texts/{{title}}
+    folder: "/content/LaFun"
+    path: '{{dir}}/texts/{{slug}}'
     create: true
-    folder: "/content/LaFun/LaFun"
+    summary: "Presentation '{{dir}}' - {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Body", name: "body", widget: "markdown",  required: true}
-  - name: "Presentation du funlab"
-    label: "Presentation du funlab"
+      - {label: "Dossier", name: "dir", widget: "select", options: ["LaFun","FunLab", "AutreBrique"], required: true}
+      - {label: "Corps", name: "body", widget: "markdown", required: true}
+  - name : "Projets"
+    label: "Projets"
     slug: "{{slug}}"
-    path: texts/{{title}}
+    folder: "/content/Projets"
+    path: '{{dir}}/texts/{{slug}}'
     create: true
-    folder: "/content/LaFun/Funlab"
+    summary: "Projet '{{dir}}' - {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Body", name: "body", widget: "markdown",  required: true}
-  - name: "Presentation de l'Autre-Brique"
-    label: "Presentation de l'Autre-Brique"
-    slug: "{{slug}}"
-    path: texts/{{title}}
+      - {label: "Dossier", name: "dir", widget: "select", options: ["LaFun","FunLab", "AutreBrique"], required: true}
+      - {label: "Corps", name: "body", widget: "markdown", required: true}
+  - name : "Tags"
+    label: "Liste des tags"
+    folder: "/content/tags"
+    path: '{{title}}/index'
     create: true
-    folder: "/content/LaFun/AutreBrique"
+    summary: "Projet '{{title | upper}}' - {{slug}}"
     fields:
-      - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Body", name: "body", widget: "markdown",  required: true}
+      - {label: "Titre", name: "title", widget: "string", required: true, pattern: ["a-z", "Le titre ne doit pas comporter autre chose que des minuscules"]}
+      - {label: "Description", name: "body", widget: "markdown", required: true}
