@@ -72,5 +72,6 @@ collections:
     summary: "Projet '{{title | upper}}' - {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true, pattern: ["[a-z0-9]", "Le titre ne doit comporter que des minuscules ou des chiffres"]}
+      - {label: "Groupe", name: "group", widget: "select", options: ["Activité","Projet", "Mot-clé"], required: true}
       - {label: "Description", name: "body", widget: "markdown", required: true}
       - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}

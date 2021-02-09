@@ -10,8 +10,5 @@ color: "#a64141"
 _agenda: true
 _lieu: FunLab
 image: http://c1.lestechnophiles.com/www.numerama.com/wp-content/uploads/2017/01/datak.jpg
-tags:
-    - test1
-    - test2
 ---
 hello world

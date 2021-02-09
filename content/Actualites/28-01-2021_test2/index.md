@@ -10,8 +10,5 @@ _tarif: gratis
 color: "#1649d1"
 _agenda: false
 image: https://assets.ifttt.com/images/channels/4/icons/monochrome_large.png
-tags:
-    - test1
-    - test3
 ---
 test

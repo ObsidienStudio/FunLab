@@ -10,7 +10,5 @@ _tarif: "20"
 color: "#c2c212"
 presenceAgenda: true
 thumbnail: images/images.jpg
-tags:
-    - test3
 ---
 Un test pour l'enregistrement d'images

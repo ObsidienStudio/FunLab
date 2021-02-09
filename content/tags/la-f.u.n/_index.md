@@ -1,6 +1,7 @@
 ---
 title : la fun
 visible : true
+group: Activité
 ---
 
 
