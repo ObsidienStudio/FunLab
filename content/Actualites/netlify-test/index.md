@@ -11,7 +11,7 @@ eventDate: 212021-02-03
 _tarif: 23€
 color: "#f13434"
 presenceAgenda: true
-thumbnail: images/tenor.gif
+thumbnail: images/random.jpg
 visible: true
 ---
 Bonjour a tous et bienvenue dans ce test de netlify pour hugo.\
