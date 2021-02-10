@@ -67,7 +67,7 @@ collections:
     label: "Liste des tags"
     filter: {field: "visible", value: true}
     folder: "/content/tags"
-    path: '{{title}}/index'
+    path: '{{title}}/_index'
     create: true
     summary: "Projet '{{title | upper}}' - {{slug}}"
     fields:

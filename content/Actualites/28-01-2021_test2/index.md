@@ -5,7 +5,7 @@ _tarif: gratis
 color: "#1649d1"
 presenceAgenda: false
 _agenda: false
-title: test2
+title: article_test
 tags:
   - tag-test1
   - Funlab

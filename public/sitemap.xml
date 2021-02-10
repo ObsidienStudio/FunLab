@@ -3,46 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/agenda/</loc>
-    <priority>0</priority>
+    <loc>/actualites/</loc>
+    <lastmod>2021-01-28T11:55:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/articles/</loc>
-    <priority>0</priority>
+    <loc>/</loc>
+    <lastmod>2021-01-28T11:55:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/articles/lautre-brique/</loc>
-    <priority>0</priority>
+    <loc>/actualites/28-01-2021_test-actu/</loc>
+    <lastmod>2021-01-28T11:55:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/carte/</loc>
-    <priority>0</priority>
+    <loc>/actualites/28-01-2021_test2/</loc>
+    <lastmod>2021-01-05T12:14:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/communaute/</loc>
-    <priority>0</priority>
+    <loc>/tags/funlab/</loc>
+    <lastmod>2021-01-05T12:14:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/presentations/</loc>
-    <priority>0</priority>
+    <loc>/tags/</loc>
+    <lastmod>2021-01-05T12:14:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/ressources/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/agenda/article1/</loc>
-  </url>
-  
-  <url>
-    <loc>/agenda/article2/</loc>
+    <loc>/tags/tag-test1/</loc>
+    <lastmod>2021-01-05T12:14:40+00:00</lastmod>
   </url>
   
   <url>
@@ -50,27 +42,15 @@
   </url>
   
   <url>
-    <loc>/articles/funlab/actualite3/</loc>
-  </url>
-  
-  <url>
-    <loc>/articles/funlab/actualite1/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/f.u.n/</loc>
   </url>
   
   <url>
-    <loc>/tags/lautre-brique/</loc>
+    <loc>/groups/</loc>
   </url>
   
   <url>
-    <loc>/articles/funlab/actualite4/</loc>
-  </url>
-  
-  <url>
-    <loc>/presentations/lafun/</loc>
+    <loc>/tags/la-fun/</loc>
   </url>
   
   <url>
@@ -78,23 +58,59 @@
   </url>
   
   <url>
-    <loc>/articles/funlab/actualite2/</loc>
+    <loc>/actualites/netlify-test/</loc>
   </url>
   
   <url>
-    <loc>/presentations/presentation2/</loc>
+    <loc>/agenda/</loc>
   </url>
   
   <url>
-    <loc>/presentations/presentation1/</loc>
+    <loc>/lafun/autrebrique/</loc>
   </url>
   
   <url>
-    <loc>/articles/funlab/</loc>
+    <loc>/ressources/carte/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/ressources/communaute/</loc>
+  </url>
+  
+  <url>
+    <loc>/ressources/doc/</loc>
+  </url>
+  
+  <url>
+    <loc>/lafun/lafun/</loc>
+  </url>
+  
+  <url>
+    <loc>/lafun/</loc>
+  </url>
+  
+  <url>
+    <loc>/ressources/infos/</loc>
+  </url>
+  
+  <url>
+    <loc>/projets/</loc>
+  </url>
+  
+  <url>
+    <loc>/ressources/</loc>
+  </url>
+  
+  <url>
+    <loc>/lafun/funlab/</loc>
+  </url>
+  
+  <url>
+    <loc>/ressources/wiki/</loc>
+  </url>
+  
+  <url>
+    <loc>/nousrejoindre/</loc>
   </url>
   
   <url>
@@ -102,7 +118,7 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/actualites/28-01-2021_un-nouveau-test/</loc>
   </url>
   
 </urlset>
