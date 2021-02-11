@@ -1,5 +1,5 @@
 ---
-title : Page des actualitées
+title : Actualités
 visible : false
 ---
 
