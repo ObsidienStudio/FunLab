@@ -10,12 +10,6 @@ theme = "hugo-flex"
     url = "/LaFun/lafun"
     weight = 1
   [[menu.main]]
-    identifier = "LaFun-lafun"
-    name = "La F.U.N"
-    url = "/LaFun/LaFun"
-    parent = "LaFun"
-    weight = 1
-  [[menu.main]]
     identifier = "LaFun-autrebrique"
     name = "L'Autre Brique"
     url = "/LaFun/autreBrique"
@@ -23,7 +17,7 @@ theme = "hugo-flex"
     weight = 2
   [[menu.main]]
     identifier = "LaFun-funlab"
-    name = "Le Fun Lab"
+    name = "Le FunLab"
     url = "/LaFun/funLab"
     parent = "LaFun"
     weight = 3
