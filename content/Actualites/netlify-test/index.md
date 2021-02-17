@@ -5,7 +5,7 @@ tags:
   - la fun
   - Funlab
 author: Martin
-date: 212021-03-18
+date: 212021-05-18
 publishDate: 212021-03-05
 eventDate: 212021-03-12
 _tarif: 23€
@@ -33,9 +33,7 @@ visible: true
 - - -
 
 - - -
-
 ## Typographic replacements
-
 Enable typographer option to see result.
 
 (c) (C) (r) (R) (tm) (TM) (p) (P) +-
