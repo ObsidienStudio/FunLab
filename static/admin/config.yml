@@ -22,9 +22,9 @@ collections:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "relation", collection: "Tags", search_fields: ["title"], value_field: "title", multiple: true, options_length: 5}
       - {label: "Auteur", name: "author", widget: "select", options: ["Cat", "Fab'Manager", "Julie"]}
-      - {label: "Date", name: "date", widget: "datetime", format: "DD/MM/YYYY"}
-      - {label: "Date de publication", name: "publishDate", widget: "datetime", format: "DD/MM/YYYY"}
-      - {label: "Date de l'évenement", name: "eventDate", widget: "datetime", format: "DD/MM/YYYY"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYY-MM-DD"}
+      - {label: "Date de publication", name: "publishDate", widget: "datetime", format: "YYY-MM-DD"}
+      - {label: "Date de l'évenement", name: "eventDate", widget: "datetime", format: "YYY-MM-DD"}
       - {label: "Tarif de l'évenement", name: "_tarif", widget: "string"}
       - {label: 'Couleur', name: 'color', widget: 'color' }
       - {label: "Present dans l'agenda", name: "presenceAgenda", widget: "boolean", default: false}
