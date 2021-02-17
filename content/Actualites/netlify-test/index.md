@@ -5,7 +5,7 @@ tags:
   - la fun
   - Funlab
 author: Martin
-date: 2021-03-02T23:00:00.000Z
+date: 2021-03-04T23:00:00.000Z
 publishDate: 2021-03-02T23:00:00.000Z
 eventDate: 2021-03-02T23:00:00.000Z
 _tarif: 23€
