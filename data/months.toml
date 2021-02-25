@@ -1,0 +1,29 @@
+eng = [
+"January",
+"February",
+"March",
+"April",
+"May",
+"June",
+"July",
+"August",
+"September",
+"October",
+"November",
+"December"
+]
+
+fr = [
+"Janvier",
+"Fevrier",
+"Mars",
+"Avril",
+"Mai",
+"Juin",
+"Juillet",
+"Aôut",
+"Septembre",
+"Octobre",
+"Novembre",
+"Decembre"
+]

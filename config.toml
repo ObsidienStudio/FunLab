@@ -102,3 +102,12 @@ theme = "hugo-flex"
   category = "categories"
   structure = "structures"
   group = "groups"
+  year = "years"
+  months = "months"
+
+
+[permalinks]
+    # :title is used if :slug is not defined in post frontmatter
+    posts = "/:year/:month/:slug/"
+    archm = "/:year/:month/"
+    archy = "/:year/"

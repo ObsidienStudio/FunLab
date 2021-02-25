@@ -4,6 +4,7 @@ backend:
 
 locale: 'fr'
 
+
 # This line should *not* be indented
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
@@ -12,7 +13,7 @@ collections:
     label: "Actualites" # Used in the UI
     slug: "{{slug}}"    
     folder: "/content/Actualites" # The path to the folder where the documents are stored
-    path: '{{slug}}/index'
+    path: "{{eventDate | date('YYYY')}}/{{eventDate | date('MM')}}/{{eventDate | date('DD')}}{{slug}}/index"
     filter: {field: "visible", value: true}
     create: true # Allow users to create new documents in this collection
     media_folder: "images/" # Media files will be stored in the same folder
@@ -75,3 +76,25 @@ collections:
       - {label: "Groupe", name: "group", widget: "select", options: ["Activité","Projet", "Mot-clé"], required: true}
       - {label: "Description", name: "body", widget: "markdown", required: true}
       - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
+  - name: pages
+    label: Pages
+    label_singular: 'Page'
+    folder: content/pages
+    create: true
+    # adding a nested object will show the collection folder structure
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+    fields:
+      - label: annee
+        name: annee
+        widget: string
+      - label: number
+        name: number
+        widget: number
+      - label: Body
+        name: body
+        widget: markdown
+    # adding a meta object with a path property allows editing the path of entries
+    # moving an existing entry will move the entire sub tree of the entry to the new location
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
