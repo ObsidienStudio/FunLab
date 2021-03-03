@@ -98,3 +98,21 @@ collections:
     # adding a meta object with a path property allows editing the path of entries
     # moving an existing entry will move the entire sub tree of the entry to the new location
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+  - name: "Test" # Used in routes, e.g., /admin/collections/blog
+    label: "test" # Used in the UI
+    slug: "{{slug}}"    
+    folder: "/content/test" # The path to the folder where the documents are stored
+    path: "{{year}}/{{month}}/{{day}}/{{slug}}/index"
+    filter: {field: "visible", value: true}
+    create: true # Allow users to create new documents in this collection
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Auteur", name: "author", widget: "select", options: ["Cat", "Fab'Manager", "Julie"]}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Date de publication", name: "publishDate", widget: "datetime"}
+      - {label: "Date de l'évenement", name: "eventDate", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}

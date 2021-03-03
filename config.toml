@@ -107,7 +107,4 @@ theme = "hugo-flex"
 
 
 [permalinks]
-    # :title is used if :slug is not defined in post frontmatter
-    posts = "/:year/:month/:slug/"
-    archm = "/:year/:month/"
-    archy = "/:year/"
+  Actualites = "/:year/:month/:title/"

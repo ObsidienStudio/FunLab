@@ -5,7 +5,7 @@ author: Fab'Manager
 visible : true
 date: 2021-01-05T12:14:40.774Z
 publishDate: 2021-01-05T12:14:40.774Z
-eventDate: 03/02/2021
+eventDate: 2021-03-08T12:14:40.872Z
 _tarif: "20"
 color: "#c2c212"
 presenceAgenda: true

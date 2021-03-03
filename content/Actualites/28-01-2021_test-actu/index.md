@@ -5,6 +5,7 @@ title: test actu
 author: Julie
 date: 2021-01-28T11:55:31.005Z
 _date: 2021-01-28T11:55:31.055Z
+eventDate: 2021-08-12T12:14:40.872Z
 _tarif: gratis
 color: "#a64141"
 _agenda: true
