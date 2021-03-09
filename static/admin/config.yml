@@ -81,28 +81,26 @@ collections:
     folder: content/Partenaires
     create: true
     slug: "{{slug}}"
-    path: '/index'
+    path: "{{slug}}/index"
     media_folder: "images/" # Media files will be stored in the same folder
     fields:
       - {label: "Nom", name: "name", widget: "string", required: true}
       - {label: "Logo", name: "logo", widget: "image", required: true}
       - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
     # adding a nested object will show the collection folder structure
-  - name: "Test" # Used in routes, e.g., /admin/collections/blog
-    label: "test" # Used in the UI
-    slug: "{{slug}}"    
-    folder: "/content/test" # The path to the folder where the documents are stored
-    path: "{{year}}/{{month}}/{{day}}/{{slug}}/index"
-    filter: {field: "visible", value: true}
-    create: true # Allow users to create new documents in this collection
-    media_folder: "images/" # Media files will be stored in the same folder
-    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Titre", name: "title", widget: "string"}
-      - {label: "Auteur", name: "author", widget: "select", options: ["Cat", "Fab'Manager", "Julie"]}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Date de publication", name: "publishDate", widget: "datetime"}
-      - {label: "Date de l'évenement", name: "eventDate", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "RGPD"
+    label : "RGPD"
+    folder: content/rgpd
+    create: true
+    path: "index"
+    fields:
+      - {label: "text", name: "body", widget: "markdown", required: true}
+      - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
+  - name: "mentions_legales"
+    label : "mentions_legales"
+    folder: content/mentions_legales
+    create: true
+    path: "index"
+    fields:
+      - {label: "text", name: "body", widget: "markdown", required: true}
       - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
