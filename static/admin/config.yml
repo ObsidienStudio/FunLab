@@ -23,9 +23,8 @@ collections:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "relation", collection: "Tags", search_fields: ["title"], value_field: "title", multiple: true, options_length: 5}
       - {label: "Auteur", name: "author", widget: "select", options: ["Cat", "Fab'Manager", "Julie"]}
-      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Date de l'evenement", name: "date", widget: "datetime"}
       - {label: "Date de publication", name: "publishDate", widget: "datetime"}
-      - {label: "Date de l'évenement", name: "eventDate", widget: "datetime"}
       - {label: "Tarif de l'évenement", name: "_tarif", widget: "string"}
       - {label: 'Couleur', name: 'color', widget: 'color' }
       - {label: "Present dans l'agenda", name: "presenceAgenda", widget: "boolean", default: false}
@@ -76,28 +75,19 @@ collections:
       - {label: "Groupe", name: "group", widget: "select", options: ["Activité","Projet", "Mot-clé"], required: true}
       - {label: "Description", name: "body", widget: "markdown", required: true}
       - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
-  - name: pages
-    label: Pages
-    label_singular: 'Page'
-    folder: content/pages
+  - name: "Partenaires"
+    label: "Partenaires"
+    label_singular: 'Partenaire'
+    folder: content/Partenaires
     create: true
-    # adding a nested object will show the collection folder structure
-    nested:
-      depth: 100 # max depth to show in the collection tree
-      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+    slug: "{{slug}}"
+    path: '/index'
+    media_folder: "images/" # Media files will be stored in the same folder
     fields:
-      - label: annee
-        name: annee
-        widget: string
-      - label: number
-        name: number
-        widget: number
-      - label: Body
-        name: body
-        widget: markdown
-    # adding a meta object with a path property allows editing the path of entries
-    # moving an existing entry will move the entire sub tree of the entry to the new location
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+      - {label: "Nom", name: "name", widget: "string", required: true}
+      - {label: "Logo", name: "logo", widget: "image", required: true}
+      - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
+    # adding a nested object will show the collection folder structure
   - name: "Test" # Used in routes, e.g., /admin/collections/blog
     label: "test" # Used in the UI
     slug: "{{slug}}"    

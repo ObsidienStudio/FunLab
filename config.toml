@@ -6,24 +6,24 @@ theme = "hugo-flex"
 [menu]
   [[menu.main]]
     identifier = "LaFun"
-    name = "LaFun"
+    name = "La Fun"
     url = "/LaFun/lafun"
     weight = 1
-  [[menu.main]]
-    identifier = "LaFun-autrebrique"
-    name = "L'Autre Brique"
-    url = "/LaFun/autreBrique"
-    parent = "LaFun"
-    weight = 2
   [[menu.main]]
     identifier = "LaFun-funlab"
     name = "Le FunLab"
     url = "/LaFun/funLab"
     parent = "LaFun"
+    weight = 2
+  [[menu.main]]
+    identifier = "LaFun-autrebrique"
+    name = "L'Autre Brique"
+    url = "/LaFun/autreBrique"
+    parent = "LaFun"
     weight = 3
   [[menu.main]]
     identifier = "LaFun-ateliersLaboratoires"
-    name = "Les Ateliers Laboratoires"
+    name = "Ateliers Laboratoires"
     url = "/LaFun/ateliersLaboratoires"
     parent = "LaFun"
     weight = 4
@@ -34,19 +34,19 @@ theme = "hugo-flex"
     parent = "LaFun"
     weight = 5
   [[menu.main]]
-    identifier = "Projets"
-    name = "Projets"
-    url = "/projets"
-    weight = 2
-  [[menu.main]]
     identifier = "actualites"
     name = "Actualités"
     url = "/actualites"
-    weight = 3
+    weight = 2
   [[menu.main]]
     identifier = "agenda"
     name = "Agenda"
     url = "/Agenda"
+    weight = 3
+  [[menu.main]]
+    identifier = "Projets"
+    name = "Projets"
+    url = "/projets"
     weight = 4
   [[menu.main]]
     identifier = "ressources"
@@ -72,39 +72,13 @@ theme = "hugo-flex"
     parent = "ressources"
     weight = 3
   [[menu.main]]
-    identifier = "infos"
-    name = "Infos"
-    url = "/Ressources/infos"
-    parent = "ressources"
-    weight = 4
-  [[menu.main]]
-    identifier = "contacts"
-    name = "Contacts"
-    url = "/Ressources/contacts"
-    parent = "ressources"
-    weight = 5
-  [[menu.main]]
-    identifier = "carte"
-    name = "Carte"
-    url = "/Ressources/carte"
-    parent = "ressources"
-    weight = 6
-  [[menu.main]]
-    identifier = "NousRejoindre"
-    name = "Nous Rejoindre"
-    url = "/NousRejoindre"
-    weight = 6
-
-
+    identifier = "connexion"
+    name = "Connexion"
+    url = "/Login"
+    weight =6
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
-  structure = "structures"
-  group = "groups"
-  year = "years"
-  months = "months"
-
 
 [permalinks]
   Actualites = "/:year/:month/:title/"
