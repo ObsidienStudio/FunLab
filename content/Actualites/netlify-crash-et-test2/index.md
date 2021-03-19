@@ -12,5 +12,6 @@ color: "#722b2b"
 presenceAgenda: true
 thumbnail: images/random.jpg
 visible: true
+
 ---
 Test agenda

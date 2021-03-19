@@ -7,7 +7,6 @@ presenceAgenda: false
 _agenda: false
 title: article_test
 tags:
-  - tag-test1
   - Funlab
 author: Cat
 date: 2021-01-05T12:14:40.774Z

@@ -1,18 +1,7 @@
 ---
 title : Page de la fun
 visible : true
+weight: 0
 ---
 
-# h1 Heading
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-
-
-## Horizontal Rules
-
-___
-
----
+Texte de présentation de L'association

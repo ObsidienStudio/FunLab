@@ -1,5 +1,5 @@
 ---
-title: Site de La F.U.N
+title: Site de La Fun
 
 visible : false
 ---

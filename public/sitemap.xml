@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/devhelp/months/january/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/months/february/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/months/march/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/months/april/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/months/may/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/months/june/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/months/july/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/months/august/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/months/september/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/months/october/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/months/november/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/months/december/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-05-05T12:49:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/test/</loc>
+    <lastmod>2021-05-05T12:49:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/test/2021/03/03/testsubfolder/</loc>
+    <lastmod>2021-05-05T12:49:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/actualites/</loc>
+    <lastmod>2021-03-04T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/funlab/</loc>
+    <lastmod>2021-03-04T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/la-fun/</loc>
+    <lastmod>2021-03-04T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/actualites/netlify-test/</loc>
+    <lastmod>2021-03-04T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-03-04T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/actualites/test/</loc>
+    <lastmod>2021-02-17T15:15:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/actualites/28-01-2021_test-actu/</loc>
+    <lastmod>2021-01-28T11:55:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/actualites/28-01-2021_test2/</loc>
+    <lastmod>2021-01-05T12:14:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tag-test1/</loc>
+    <lastmod>2021-01-05T12:14:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/actualites/28-01-2021_un-nouveau-test/</loc>
+    <lastmod>2021-01-05T12:14:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/agenda/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/empty/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/partenaires/map-visible-true-logo-images-region-centre-jpg-name-region-centre-val-de-loire/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/</loc>
+  </url>
+  
+  <url>
+    <loc>/devhelp/months/</loc>
+  </url>
+  
+  <url>
+    <loc>/lafun/autrebrique/</loc>
+  </url>
+  
+  <url>
+    <loc>/ressources/carte/</loc>
+  </url>
+  
+  <url>
+    <loc>/ressources/communaute/</loc>
+  </url>
+  
+  <url>
+    <loc>/ressources/doc/</loc>
+  </url>
+  
+  <url>
+    <loc>/lafun/lafun/</loc>
+  </url>
+  
+  <url>
+    <loc>/lafun/</loc>
+  </url>
+  
+  <url>
+    <loc>/ressources/infos/</loc>
+  </url>
+  
+  <url>
+    <loc>/projets/</loc>
+  </url>
+  
+  <url>
+    <loc>/ressources/</loc>
+  </url>
+  
+  <url>
+    <loc>/lafun/funlab/</loc>
+  </url>
+  
+  <url>
+    <loc>/ressources/wiki/</loc>
+  </url>
+  
+  <url>
+    <loc>/nousrejoindre/</loc>
+  </url>
+  
+  <url>
+    <loc>/partenaires/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/titre-de-mon-nouveau-tag-test/</loc>
+  </url>
+  
+</urlset>

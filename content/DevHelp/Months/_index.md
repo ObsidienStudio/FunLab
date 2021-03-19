@@ -1,4 +1,0 @@
----
-title : Months
-visible : false
----

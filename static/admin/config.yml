@@ -88,19 +88,24 @@ collections:
       - {label: "Logo", name: "logo", widget: "image", required: true}
       - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
     # adding a nested object will show the collection folder structure
-  - name: "RGPD"
-    label : "RGPD"
-    folder: content/rgpd
-    create: true
-    path: "index"
-    fields:
-      - {label: "text", name: "body", widget: "markdown", required: true}
-      - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
-  - name: "mentions_legales"
-    label : "mentions_legales"
-    folder: content/mentions_legales
-    create: true
-    path: "index"
-    fields:
-      - {label: "text", name: "body", widget: "markdown", required: true}
-      - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
+  - label: "Pages"
+    name: "pages"
+    files: 
+      - label : "RGPD"
+        name : "RGPD"
+        file: "content/rgpd/_index.md"
+        fields:
+          - {label: "text", name: "body", widget: "markdown", required: true}
+          - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
+      - label : "mentions_legales"
+        name : "mentions_legales"
+        file: "content/mentions_legales/_index.md"
+        fields:
+          - {label: "text", name: "body", widget: "markdown", required: true}
+          - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
+      - label : "newsletter"
+        name : "newsletter"
+        file: "content/newsletter/_index.md"
+        fields:
+          - {label: "text", name: "body", widget: "markdown", required: true}
+          - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}

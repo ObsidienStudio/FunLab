@@ -3,7 +3,6 @@ layout: blog
 title: Netlify test
 tags:
   - la fun
-  - Funlab
 author: Martin
 date: 2021-03-04T23:00:00.000Z
 publishDate: 2021-03-02T23:00:00.000Z
