@@ -10,6 +10,12 @@ theme = "hugo-flex"
     url = "/LaFun/lafun"
     weight = 1
   [[menu.main]]
+    identifier = "LaFun-LaFun"
+    name = "La Fun"
+    url = "/LaFun/lafun"
+    parent = "LaFun"
+    weight = 1
+  [[menu.main]]
     identifier = "LaFun-funlab"
     name = "Le FunLab"
     url = "/LaFun/funLab"
@@ -82,3 +88,8 @@ theme = "hugo-flex"
 
 [permalinks]
   Actualites = "/:year/:month/:title/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
