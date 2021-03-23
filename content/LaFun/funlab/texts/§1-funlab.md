@@ -4,3 +4,4 @@ dir: FunLab
 visible : true
 ---
 Test §1 pour le funlab
+{{% button %}}

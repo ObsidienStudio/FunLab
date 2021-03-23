@@ -22,14 +22,18 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "relation", collection: "Tags", search_fields: ["title"], value_field: "title", multiple: true, options_length: 5}
-      - {label: "Auteur", name: "author", widget: "select", options: ["Cat", "Fab'Manager", "Julie"]}
-      - {label: "Date de l'evenement", name: "date", widget: "datetime"}
+      - {label: "Auteur", name: "author", widget: "select", options: ["Cat", "Fab'Manager", "Julie"]} #repère ACTU01
+      - {label: "Date de l'evenement", name: "eventDate", widget: "datetime"}
       - {label: "Date de publication", name: "publishDate", widget: "datetime"}
+      - {label: "Durée", name: "duration", widget: "number", required: false}
       - {label: "Tarif de l'évenement", name: "_tarif", widget: "string"}
-      - {label: 'Couleur', name: 'color', widget: 'color' }
       - {label: "Present dans l'agenda", name: "presenceAgenda", widget: "boolean", default: false}
+      - {label: "Lien de l'article mère", name: "motherLink", widget: "string", default: "", required: false}
+      - {label: "Present dans les actualites", name: "presenceActualites", widget: "boolean", default: true}
+      - {label: "Jeune public", name: "youngFriendly", widget: "boolean", default: true, required: false}
       - {label: "Vignette", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "partenaires", name: "partenaires", widget: "relation", collection: "Partenaires", search_fields: ["name"], value_field: "name", multiple: true, required: false}
       - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
   - name : "Presentations"
     label: "Presentations"
@@ -40,11 +44,11 @@ collections:
     media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
-    summary: "Presentation '{{dir}}' - {{slug}}"
+    summary: "'{{fields.dir}}' > {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Dossier", name: "dir", widget: "select", options: ["LaFun","FunLab", "AutreBrique"], required: true}
-      - {label: "Logo", name: "logo", widget: "image"}
+      - {label: "Dossier", name: "dir", widget: "select", options: ["LaFun","FunLab", "AutreBrique"], required: true} #repère PRES01
+      - {label: "Logo", name: "logo", widget: "image", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
       - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
   - name : "Projets"
@@ -69,7 +73,7 @@ collections:
     folder: "/content/tags"
     path: '{{title}}/_index'
     create: true
-    summary: "Projet '{{title | upper}}' - {{slug}}"
+    summary: "Tag '{{title | upper}}' - {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true, pattern: ["[a-z0-9]", "Le titre ne doit comporter que des minuscules ou des chiffres"]}
       - {label: "Groupe", name: "group", widget: "select", options: ["Activité","Projet", "Mot-clé"], required: true}

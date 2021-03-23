@@ -1,29 +1,13 @@
-eng = [
-"January",
-"February",
-"March",
-"April",
-"May",
-"June",
-"July",
-"August",
-"September",
-"October",
-"November",
-"December"
-]
-
-fr = [
-"Janvier",
-"Fevrier",
-"Mars",
-"Avril",
-"Mai",
-"Juin",
-"Juillet",
-"Aôut",
-"Septembre",
-"Octobre",
-"Novembre",
-"Decembre"
-]
+[mois]
+    01 = "Janvier"
+    02 = "Février"
+    03 = "Mars"
+    04 = "Avril"
+    05 = "Mai"
+    06 = "Juin"
+    07 = "Juillet"
+    08 = "Aôut"
+    09 = "Septembre"
+    10 = "Octobre"
+    11 = "Novembre"
+    12 = "Decembre"
